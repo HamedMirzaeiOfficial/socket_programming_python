@@ -17,7 +17,6 @@ while True:
     data = client_socket.recv(1024).decode('utf-8')
     print("Data in server:", data)
 
-    # Assuming your translation function is defined in 'utils'
 
     try:
         answer = ANSWERS.get(data)
