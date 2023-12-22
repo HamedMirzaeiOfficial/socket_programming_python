@@ -21,11 +21,6 @@ while True:
 
     try:
         answer = ANSWERS.get(data)
-    except:
-        answer = 'answer not found!!!'
-
-    try:
-        answer = ANSWERS.get(data)
         if answer is None:
             answer = 'answer not found!!!'
     except Exception as e:
